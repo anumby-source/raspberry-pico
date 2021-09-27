@@ -1,7 +1,8 @@
 from machine import Pin
+import time
+
 led = Pin(25, Pin.OUT)
-led.value(1)
-i = 0
+
 ledR = Pin(2, Pin.OUT)
 ledR.value(1)
 
@@ -11,15 +12,13 @@ ledG.value(1)
 ledB = Pin(4, Pin.OUT)
 ledB.value(1)
 
-
-from machine import Pin, Timer
-led = Pin(25, Pin.OUT)
-timer = Timer()
-
-def blink(timer):
-    led.toggle()
+while True:
+    led.value(1)
     ledG.toggle()
-    if((i / 2) % 2):
-        ledR.toggle()
-
-timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
+    ledR.toggle()
+    time.sleep(1)
+    led.value(0)
+    ledR.toggle()
+    time.sleep(1)
+    
+    
