@@ -4,5 +4,7 @@
 
 ![video](https://github.com/anumby-source/raspberry-pico/blob/main/feu-tricolore/feu-tricolore.mp4)
 
+https://github.com/anumby-source/raspberry-pico/blob/main/invader/read-me-console-jeux.pdf
+
 ![image](https://github.com/anumby-source/raspberry-pico/blob/main/thonny.png)
 
