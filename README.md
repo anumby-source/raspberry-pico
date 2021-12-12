@@ -5,7 +5,8 @@
 
 ![créer un péripherique USB](https://github.com/anumby-source/raspberry-pico/blob/main/read-me-pico-USB.pdf)
 
-![réaliser des consoles de jeux](https://github.com/anumby-source/raspberry-pico/blob/main/invader/read-me-console-jeux.pdf
+![réaliser des consoles de jeux](https://github.com/anumby-source/raspberry-pico/blob/main/read-me-pico-USB.pdf)
+
 
 ![image](https://github.com/anumby-source/raspberry-pico/blob/main/thonny.png)
 
