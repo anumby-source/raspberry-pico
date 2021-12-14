@@ -5,7 +5,7 @@
 
 Derniers ajouts :
 
-![afficher la température](https://https://github.com/anumby-source/raspberry-pico/blob/main/temperature/read-me-temperature.pdf)
+![afficher la température](https://github.com/anumby-source/raspberry-pico/blob/main/temperature/read-me-temperature.pdf)
 
 ![créer un péripherique USB](https://github.com/anumby-source/raspberry-pico/blob/main/read-me-pico-USB.pdf)
 
