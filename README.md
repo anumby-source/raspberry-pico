@@ -5,6 +5,8 @@
 
 Derniers ajouts :
 
+![afficher la température](https://github.com/anumby-source/raspberry-pico/tree/main/temperature)
+
 ![créer un péripherique USB](https://github.com/anumby-source/raspberry-pico/blob/main/read-me-pico-USB.pdf)
 
 ![réaliser des consoles de jeux](https://github.com/anumby-source/raspberry-pico/blob/main/read-me-pico-USB.pdf)
