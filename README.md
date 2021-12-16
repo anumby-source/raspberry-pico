@@ -7,7 +7,9 @@ Derniers ajouts :
 
 ![afficher la température](https://github.com/anumby-source/raspberry-pico/blob/main/temperature/read-me-temperature.pdf)
 
-![créer un péripherique USB](https://github.com/anumby-source/raspberry-pico/blob/main/read-me-pico-USB.pdf)
+![créer un péripherique USB](https://github.com/anumby-source/raspberry-pico/blob/main/read-me-pico-USB.pdf) ![video](
+https://github.com/anumby-source/raspberry-pico/blob/main/Mouse/pico-deplace-la-souris.mp4)
+
 
 ![réaliser des consoles de jeux](https://github.com/anumby-source/raspberry-pico/blob/main/read-me-pico-USB.pdf)
 
