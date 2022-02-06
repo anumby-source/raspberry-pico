@@ -20,3 +20,22 @@ https://github.com/anumby-source/raspberry-pico/blob/main/Mouse/pico-deplace-la-
 
 ![image](https://github.com/anumby-source/raspberry-pico/blob/main/thonny.png)
 
+[Des lutins pour programmer des jeux sur esp32](https://github.com/arnaudrco/exemples/blob/main/esp-Sprites/read-me-sprites.pdf)
+
+[un caméleon avec 3 méthodes de colorimétrie](https://github.com/arnaudrco/exemples/blob/main/cameleon/read-me-cameleon.pdf)
+
+[une voiture pour suivre une ligne blanche](https://github.com/anumby-source/jouets/blob/main/voiture-eclairee/read-me-voiture-eclairee.pdf)
+
+[réaliser un afficheur à distance avec un vieil écran VGA](https://github.com/anumby-source/jouets/blob/main/affichage-a-distance/read-me-affichage.pdf)
+
+Archives
+
+[mesurer un courant sur place ou à distance](https://github.com/arnaudrco/exemples/blob/main/read-me-boucle-de-courant.pdf)
+
+[un dé pour donner la direction et l'accélération](https://github.com/arnaudrco/exemples/blob/main/de-accelerometre/de-accelerom%C3%A8tre.mp4)
+
+[Une manette de jeux pour jouer avec la souris sous arduino](https://github.com/arnaudrco/exemples/blob/main/manette-de-jeux-pro/read-me-manette.pdf)
+
+[Une guirlande de Noel sous arduino](https://github.com/arnaudrco/exemples/blob/main/guirlande/read-me-guirlande.pdf)
+
+
