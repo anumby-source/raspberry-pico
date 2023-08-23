@@ -100,7 +100,15 @@ void celebrateSong() {
 
       playNote(NOTE_A4, HALF, false);
             playNote(NOTE_CS5, HALF, false);
-             //    playNote(NOTE_GS5, HALF, false);
+                 playNote(NOTE_GS4, HALF, false);
+                        playNote(NOTE_CS5, HALF, false);
+                             playNote(NOTE_FS4, QUARTER, false);
+                               playNote(NOTE_F4, QUARTER, false);
+                             playNote(NOTE_FS4, QUARTER, false);
+                  playNote(NOTE_GS4, QUARTER, false);
+
+                          playNote(NOTE_A4, QUARTER, false);
+                                  playNote(NOTE_B4, QUARTER, false);
         
 
 }
