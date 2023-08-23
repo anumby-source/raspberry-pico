@@ -1,6 +1,4 @@
-// The speaker will play the tune to Happy Birthday continuously
-// Author: Tony DiCola
-// License: MIT (https://opensource.org/licenses/MIT)
+// Arnaud arnaud@repaircafe-orsay.org
 
 #include <Arduino.h>
 
