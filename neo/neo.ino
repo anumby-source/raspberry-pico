@@ -1,6 +1,6 @@
 #include <NeoPixelConnect.h>
 
-#define ItsyBitsyRP2040
+
 
 // Original value of 255 is WAY too bright - worryingly so.
 // 32 is okay, but a bit bright for dim lighting, close up.
@@ -9,17 +9,8 @@
 
 // https://github.com/MrYsLab/NeoPixelConnect
 
-// Original: "Create an instance of NeoPixelConnect and initialize it
-// to use GPIO pin 4 (D12) as the control pin, for a string
-// of 8 neopixels. Name the instance p
 
-// RP2040-Zero : one builtin WS2812, on GP16
-// Adafruit ItsyBitsy RP2040 : one builtin WS2812, on GP17, but power
-// on GP16, active high
-
-
-
-NeoPixelConnect p(23, 1);
+NeoPixelConnect strip(23, 1);
 
 // this array will hold a pixel number and the rgb values for the
 // randomly generated pixel values
@@ -49,7 +40,10 @@ void setup(){
     Serial.begin(115200);
     delay(2000);
     Serial.println("In setup");
-
+    for( int i=0; i<256; i++){
+      Wheel(i);
+      delay(10);
+    }
 }
 
 void loop(){
@@ -58,11 +52,28 @@ void loop(){
     get_random_pixel_and_color();
 
     // display the randomly assigned pixel and color
-    p.neoPixelSetValue(random_pixel_setting[0], random_pixel_setting[1],
+    strip.neoPixelSetValue(random_pixel_setting[0], random_pixel_setting[1],
                        random_pixel_setting[2],
                        random_pixel_setting[3], true);
     delay(100);
     // clear all pixels
-    p.neoPixelClear();
+    strip.neoPixelClear();
     delay(100);
+}
+void Color(byte x,byte y,byte z) {
+    strip.neoPixelSetValue(0, x,y,z, true);
+}
+
+// Input a value 0 to 255 to get a color value.
+// The colours are a transition r - g - b - back to r.
+void Wheel(byte WheelPos) {
+  if(WheelPos < 85) {
+   return Color(WheelPos * 3, 255 - WheelPos * 3, 0);
+  } else if(WheelPos < 170) {
+   WheelPos -= 85;
+   return Color(255 - WheelPos * 3, 0, WheelPos * 3);
+  } else {
+   WheelPos -= 170;
+   return Color(0, WheelPos * 3, 255 - WheelPos * 3);
+  }
 }
